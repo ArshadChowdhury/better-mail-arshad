@@ -1,0 +1,536 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+#notready {
+  background: url("../images/6692775.jpg");
+}
+.notready {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding-bottom: 20px;
+}
+
+.btnBack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  background: none;
+  color: white;
+  padding: 25px;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  margin-top: 20px;
+}
+.btnBack a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.btnBack a:hover {
+  color: greenyellow;
+}
+.nav-list {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  font-family: "Mochiy Pop P One", sans-serif;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 15px 30px;
+}
+
+.nav-list li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+.nav-list li a:hover {
+  color: greenyellow;
+}
+
+.rightNav {
+  width: 45%;
+  text-align: right;
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 75%;
+  border: 3px solid #fff;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.4) url("../images/6692775.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+#pic {
+  height: 200px;
+  width: 200px;
+}
+.services {
+  background: url(../images/services.jpg);
+  background-size: cover;
+  padding: 46px;
+  line-height: 56px;
+}
+.services-text {
+  font-size: 25px;
+  line-height: 30px;
+  padding: 30 px;
+}
+.servicesli {
+  margin-left: 20px;
+}
+
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  margin: 0px 40px 0px 180px;
+  height: 65%;
+  padding: 3px;
+}
+
+.firstSection {
+  height: 100vh;
+}
+
+.firstHalf {
+  font-family: "Mochiy Pop P One", sans-serif;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+}
+.buttons {
+  margin-top: 20px;
+}
+
+.secondHalf {
+  width: 5%;
+}
+.secondHalf img {
+  width: 70%;
+  border: 2px solid #fff;
+  border-radius: 250px;
+  display: block;
+  margin-right: 67px;
+}
+
+.text-small {
+  font-size: 21px;
+  padding: 8px 0px 8px 0;
+}
+
+.text-small ul li {
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.btn {
+  padding: 8px 20px;
+  margin: 5px 2px;
+  border: 1.5px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  background: none;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.btn-2 {
+  margin-left: 10px;
+}
+.btn-sm {
+  font-size: 13px;
+  margin: 0 25px 5px 0;
+  padding: 4px 10px;
+}
+
+.btn:hover {
+  color: greenyellow;
+}
+.faq {
+  background-color: beige;
+  margin: 0 67px;
+  padding-top: 40px;
+}
+
+.otherProjects {
+  font-family: "Mochiy Pop P One", sans-serif;
+  color: white;
+  margin: auto;
+  text-align: right;
+  padding-right: 50px;
+  font-size: 20px;
+}
+.otherProjects a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.otherProjects a:hover {
+  color: greenyellow;
+}
+
+.others {
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 67px;
+  background: beige;
+  padding-bottom: 53px;
+}
+
+#communicator {
+  margin-right: 30px;
+  border: 2px solid white;
+  border-radius: 20px;
+  height: 280px;
+  width: 520px;
+}
+
+#rubick {
+  margin-left: 45px;
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 280px;
+  width: 500px;
+}
+
+#bettermail {
+  margin-left: 45px;
+  margin-bottom: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 280px;
+  width: 530px;
+}
+
+#mern {
+  margin: 30px;
+  border: 2px solid white;
+  border-radius: 20px;
+  height: 250px;
+  width: 650px;
+}
+
+.paras {
+  padding: 0 65px;
+}
+.image-left {
+  flex-direction: row-reverse;
+}
+.rightImgFluid {
+  margin-right: 38px;
+  border: 2px solid #fff;
+}
+
+.contact {
+  background: url(../images/1231.jpg);
+  height: 96vh;
+  width: 100%;
+  background-size: cover;
+  padding-top: 35px;
+}
+label {
+  color: white;
+  display: flex;
+}
+.text-center {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 45px;
+}
+.form {
+  max-width: 1200px;
+  margin: 12px auto;
+}
+.form-input {
+  margin: 10px 0;
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid grey;
+  border-radius: 6px;
+  padding: 4px 5px;
+}
+.form-input:focus::placeholder {
+  color: transparent;
+}
+.submit-btn {
+  justify-content: center;
+}
+.text-footer {
+  text-align: center;
+  padding: 25px 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  background-blend-mode: darken;
+}
+.text-footer:hover {
+  color: greenyellow;
+}
+
+.heading {
+  font-size: 38px;
+  padding-top: 26px;
+  text-align: center;
+}
+
+.first-heading {
+  text-align: start;
+  margin-bottom: 10px;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  width: max-content;
+}
+.description {
+  font-size: 25px;
+  line-height: 30px;
+  padding: 8px 0px 8px 0;
+}
+.about {
+  background: url(../images/about.jpg);
+  background-size: cover;
+  padding: 46px;
+}
+.skills-head {
+  font-size: 25px;
+}
+.skills {
+  text-align: center;
+}
+.burger {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+}
+.line {
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 3px 3px;
+}
+
+@media (max-width: 917px) {
+  * {
+    font-size: 25px;
+
+    line-height: 28px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  #submit {
+    display: flex;
+    margin: none;
+  }
+
+  .navbar {
+    padding-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 19px;
+    transition: all 0.3s ease-in-out;
+    position: sticky;
+  }
+
+  .box-main {
+    flex-direction: column-reverse;
+  }
+  .secondHalf {
+    margin-right: 202px;
+    margin-top: 150px;
+  }
+  .firstHalf {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .firstSection {
+    margin: 0 auto;
+  }
+
+  .rightNav {
+    width: fit-content;
+  }
+  .burger {
+    display: block;
+  }
+  .nav-visibility {
+    opacity: 0;
+  }
+
+  .firstSection {
+    font-size: 10px;
+    flex: 30%;
+  }
+
+  .services {
+    padding-top: 1px;
+  }
+  .services h2 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .services-text {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .contact {
+    background: url(../images/1231.jpg);
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+  }
+  .form-input {
+    width: 100px;
+  }
+  .text-small {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .form-input {
+    width: 250px;
+    font-size: 10px;
+  }
+
+  .contact-head {
+    font-size: 25px;
+  }
+  #submit {
+    display: flex;
+
+    font-size: 0.8rem;
+  }
+  #others {
+    max-width: 100%;
+  }
+
+  .others {
+    width: 70%;
+    background-color: beige;
+    max-width: 100%;
+  }
+
+  .others img {
+    display: flex;
+    max-height: 60%;
+    max-width: 70%;
+  }
+  .others {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .thumbnail img {
+    margin: 10px 70px;
+  }
+
+  .otherss {
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  .text-footer {
+    text-align: center;
+    bottom: 0;
+    font-size: 13px;
+  }
+  .height-nav-resp {
+    height: 360px;
+  }
+  .otherProjects {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 548px) {
+  #contact {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .background {
+    height: 130vh;
+  }
+
+  .secondHalf {
+    margin-right: 202px;
+    margin-top: 130px;
+  }
+  .firstSection {
+    padding: 0 50px 0 0;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .paras img {
+    margin-bottom: 340px;
+  }
+  .rubick-pic {
+    padding-bottom: 240px;
+  }
+  .mern-pic {
+    padding-bottom: 230px;
+  }
+  .communicator-pic {
+    padding-bottom: 90px;
+  }
+  .otherss {
+    padding-bottom: 150px;
+  }
+  .notready h1 {
+    line-height: 60px;
+  }
+}
