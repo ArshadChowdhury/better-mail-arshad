@@ -6,4 +6,5 @@ So I'll be making another one and will build backend there.
 
 ### here's a little preview of the site - 
 
-![other_portfolio](https://user-images.githubusercontent.com/86738490/154107834-b39a2a10-faae-4ea6-957b-d5e1298cb524.png)
+
+![other_portfolio](https://user-images.githubusercontent.com/86738490/154108058-398a8398-19d7-4793-8234-d96edd7d5479.png)
