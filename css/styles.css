@@ -107,6 +107,7 @@ html {
   background-size: cover;
   padding: 46px;
   line-height: 56px;
+  height:100vh;
 }
 .services-text {
   font-size: 25px;
@@ -330,6 +331,8 @@ label {
   background-size: cover;
   padding: 46px;
   height:100vh;
+  font-size: 25px;
+  line-height : 3px
 }
 .skills-head {
   font-size: 25px;
