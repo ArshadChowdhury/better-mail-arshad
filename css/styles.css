@@ -329,6 +329,7 @@ label {
   background: url(../images/about.jpg);
   background-size: cover;
   padding: 46px;
+  height:100vh;
 }
 .skills-head {
   font-size: 25px;
